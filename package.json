@@ -1,0 +1,16 @@
+{
+  "name": "pocketpoker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PocketPoker: a party-based Texas Hold'em web game with fake chips",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node test/unit.js && node test/sim.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
